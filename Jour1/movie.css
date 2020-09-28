@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background-color: #ececec;
+  font-family: 'Montserrat',
+    sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  background-color: #fecc02;
+  margin: 0;
+  padding: 10px 0;
+  color: white;
+}
+
+header img {
+  margin-top: 20px;
+  height: 300px;
+  width: auto;
+
+}
+
+main {
+  padding: 0 20px;
+}
+
+main p {
+  font-weight: light;
+}
+
+#allocine {
+  background-color: #fecc02;
+  color: #2b2b2b;
+  text-decoration: none;
+  padding: 4px 12px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
