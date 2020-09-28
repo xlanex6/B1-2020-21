@@ -1,0 +1,52 @@
+body {
+  background-color: #c9b79c;
+  margin: 0;
+}
+
+/* f1e0c5 */
+/* 342a21 */
+/* 71816d */
+/* c9b79c */
+
+
+
+nav {
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #71816d;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+
+main {
+  color: #342a21;
+  width: 80%;
+  margin: auto;
+
+}
+
+img {
+  width: 100%;
+}
+
+main p {
+  text-align: left;
+}
+
+footer {}
+
+ul li {
+  display: inline;
+  margin-right: 50px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#facebook {
+  background-color: #3b5998;
+  color: white;
+}

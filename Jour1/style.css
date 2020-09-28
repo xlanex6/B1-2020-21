@@ -45,11 +45,11 @@ form {
   text-align: center;
 }
 
+
 footer {
+  text-align: left;
   background-color: indigo;
-  text-align: center;
+  color: green;
 }
 
-footer a {
-  color: red;
-}
+footer a {}
