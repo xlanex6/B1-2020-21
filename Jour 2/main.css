@@ -1,0 +1,29 @@
+body {
+  background-color: #9b59b6;
+  margin: 0;
+}
+
+
+h1 {
+  color: greenyellow;
+
+}
+
+nav {
+  background-color: #ffd32a;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.film img {
+  height: 100px;
+}
