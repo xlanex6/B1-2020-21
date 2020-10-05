@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-color: #9b59b6;
+  background-color: #ecf0f1;
   margin: 0;
   font-family: 'Noto Sans JP',
     sans-serif;
@@ -15,7 +15,9 @@ body {
 
 
 h1 {
-  color: greenyellow;
+  color: #2c3e50;
+  line-height: inherit;
+  margin: inherit;
 }
 
 nav {
@@ -157,4 +159,73 @@ footer {
 
 #footer-img img {
   width: 100%;
+}
+
+/* INCEPTION */
+#inception-cover {
+  background-image: url('https://m.media-amazon.com/images/M/MV5BNDI0NzAwMzktZDcwMC00MzRhLTgxOTktNTVhNmZjMDYyMjFlXkEyXkFqcGdeQXVyNTc3MjUzNTI@._V1_.jpg');
+  background-size: cover;
+  height: 40vh;
+  background-repeat: no-repeat;
+  padding: 70px;
+  width: 100%;
+
+  /* border-bottom: solid 4px #e6101f; */
+}
+
+#inception-cover h1 {
+  color: #e6101f;
+  letter-spacing: 0.2px;
+  font-size: 50px;
+}
+
+p {
+  margin: 0;
+}
+
+.light {
+  font-weight: lighter;
+}
+
+#inception-cover .synopsis {
+  margin-top: 30px;
+  width: 50%;
+}
+
+.poster {
+  height: 200px;
+  width: auto;
+  margin-left: 40px;
+  margin-top: -100px;
+  border: solid 4px #e6101f;
+}
+
+.inception p {
+  margin-left: 200px;
+}
+
+.content {
+  margin-left: 200px;
+  margin-top: -100px;
+}
+
+#inception-actors {
+  height: 100%;
+}
+
+#inception-actors li {
+  display: inline-block;
+}
+
+#inception-actors p {
+  margin: inherit;
+  margin-right: 10px;
+  float: right;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+#inception-actors img {
+  height: 100px;
+  width: auto;
 }
