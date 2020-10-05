@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #9b59b6;
   margin: 0;
+  font-family: 'Noto Sans JP',
+    sans-serif;
 }
 
 
@@ -22,8 +30,57 @@ nav ul {
 nav li {
   display: inline;
   margin-right: 15px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav li:hover {
+  background-color: #d4b021;
+  color: #bf70de
+}
+
+nav a {
+  text-decoration: none;
+}
+
+section {
+  width: 95%;
+  margin: auto;
+}
+
+p {
+  text-align: justify;
+}
+
+
+/* FILM */
+.film {
+  height: 200px;
+  width: 400px;
+  list-style-type: none;
+  background-color: white;
 }
 
 .film img {
-  height: 100px;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+}
+
+/* BUTTON */
+
+.btn {
+  background-color: #9c88ff;
+  padding: 5px 15px;
+  font-size: 10px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: rgb(101, 82, 200);
 }
