@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css');
+
 html {
   scroll-behavior: smooth;
 }
@@ -14,7 +16,6 @@ body {
 
 h1 {
   color: greenyellow;
-
 }
 
 nav {
@@ -37,7 +38,7 @@ nav li {
 
 nav li:hover {
   background-color: #d4b021;
-  color: #bf70de
+  color: #bf70de;
 }
 
 nav a {
@@ -83,4 +84,43 @@ p {
 
 .btn:hover {
   background-color: rgb(101, 82, 200);
+}
+
+.full-width {
+  width: 100%;
+  height: 300px;
+  background-color: #ffd32a;
+}
+
+#music-cover {
+  height: 100%;
+  width: 50%;
+  float: right;
+  background-image: url(http://www.musiqxxl.fr/wp-content/uploads/2020/04/2da08b78003710e1c571a1499339f2fb8082121a_hq-e1600421028489.jpg);
+  background-size: cover;
+}
+
+#music-title {
+  float: left;
+  width: 50%;
+  height: 300px;
+  padding-top: 60px;
+}
+
+#music-title p,
+#music-title h3 {
+  text-align: center;
+}
+
+
+#music-title p {
+  font-weight: lighter;
+}
+
+
+/* ICONS */
+
+i {
+  font-size: 60px;
+  color: ;
 }
