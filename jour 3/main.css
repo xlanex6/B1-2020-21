@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans JP',
+    sans-serif;
+}
+
+header {
+  background-image: url(https://www.patinage-annecy.com/wp-content/uploads/2018/11/Slide-accueil-Annecy-Patingae.jpg);
+  height: 580px;
+  background-size: cover;
+  padding-top: 200px;
+}
+
+h1 {
+  color: red;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 60px;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin-top: 0;
+  font-weight: lighter;
+}
