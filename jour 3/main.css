@@ -20,12 +20,12 @@ header {
 }
 
 header h1 {
-  color: red;
+  color: #e74c3c;
   margin: 0;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 7px;
-  font-size: 60px;
+  font-size: 80px;
   font-weight: bolder;
 }
 
@@ -39,21 +39,28 @@ header p {
 
 main {
   width: 80%;
-  margin: auto
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .place {
-  background-color: green;
-  width: 50%;
+  /* flex: grandir reduire taille; */
+  flex: 0 1 300px;
   padding: 10px;
   position: relative;
   height: 150px;
+  color: aliceblue;
+  margin: 15px 5px;
+  border-radius: 5px;
+  background-size: cover;
 }
 
 .place-rating {
   position: absolute;
   top: 0;
   right: 10px;
+  color: #f1c40f;
 }
 
 .place h3 {
@@ -68,11 +75,22 @@ main {
 
 
 .place-link {
-  background-color: red;
+  background-color: #e74c3c;
   padding: 5px 12px;
   color: white;
   border-radius: 5px;
   position: absolute;
   bottom: -10px;
   right: 10px;
+}
+
+#place-jean {
+  background-image: linear-gradient(rgba(65, 151, 221, 0.34), rgba(0, 0, 0, 0.5)),
+    url(https://m.savoie-mont-blanc.com/var/smb/storage/images/media/images/visites-et-decouvertes/a-visiter/annecy-la-vieille-ville-et-le-thiou/95709-12-fre-FR/Annecy-La-vieille-ville-et-le-Thiou_format_785x530.jpg);
+}
+
+#place-saint-pierre {
+  background-image: linear-gradient(rgba(126, 171, 78, 0.4), rgba(0, 0, 0, 0.5)),
+    url(https://static.lexpress.fr/medias_12243/w_1536,h_859,c_crop,x_0,y_543/w_480,h_270,c_fill,g_north/v1595935234/annecy-lac_6268888.jpeg);
+
 }
