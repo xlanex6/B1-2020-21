@@ -94,3 +94,29 @@ main {
     url(https://static.lexpress.fr/medias_12243/w_1536,h_859,c_crop,x_0,y_543/w_480,h_270,c_fill,g_north/v1595935234/annecy-lac_6268888.jpeg);
 
 }
+
+footer {
+  height: 300px;
+  background-color: red;
+  display: flex;
+}
+
+footer ul {
+  flex: 0 1 25%
+}
+
+#places {
+  background-color: teal;
+}
+
+#country {
+  background-color: rebeccapurple;
+}
+
+#villes {
+  background-color: greenyellow;
+}
+
+#continent {
+  background-color: teal;
+}
