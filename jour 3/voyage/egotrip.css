@@ -1,0 +1,42 @@
+nav,
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+nav {
+  background-color: palevioletred;
+  height: 50px;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main img {
+  flex: 0 0 50%;
+  width: 50%;
+  height: auto;
+}
+
+.information {
+  flex: 0 0 50%;
+}
+
+.description {
+  flex: 0 0 50%;
+}
+
+.description p {
+  text-align: justify;
+  padding: 20px;
+}
+
+.avis-container {
+  flex: 0 0 50%;
+}
