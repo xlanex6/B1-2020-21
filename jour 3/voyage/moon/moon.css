@@ -1,0 +1,20 @@
+nav {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav,
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
