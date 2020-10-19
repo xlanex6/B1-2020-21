@@ -13,7 +13,7 @@ a {
 }
 
 header {
-  background-image: url(https://www.patinage-annecy.com/wp-content/uploads/2018/11/Slide-accueil-Annecy-Patingae.jpg);
+  background-image: url(/images/annecy.jpg);
   height: 580px;
   background-size: cover;
   padding-top: 200px;
@@ -85,20 +85,21 @@ main {
   right: 10px;
 }
 
-#place-jean {
+#egotrip {
   background-image: linear-gradient(rgba(65, 151, 221, 0.34), rgba(0, 0, 0, 0.5)),
-    url(https://m.savoie-mont-blanc.com/var/smb/storage/images/media/images/visites-et-decouvertes/a-visiter/annecy-la-vieille-ville-et-le-thiou/95709-12-fre-FR/Annecy-La-vieille-ville-et-le-Thiou_format_785x530.jpg);
+    url(/voyage/egotrip/egotrip.jpg);
 }
 
-#place-saint-pierre {
-  background-image: linear-gradient(rgba(126, 171, 78, 0.4), rgba(0, 0, 0, 0.5)),
-    url(https://static.lexpress.fr/medias_12243/w_1536,h_859,c_crop,x_0,y_543/w_480,h_270,c_fill,g_north/v1595935234/annecy-lac_6268888.jpeg);
+#moon {
+  background-image: linear-gradient(rgba(226, 229, 223, 0.4), rgba(0, 0, 0, 0.5)),
+    url(/voyage/moon/moon.webp);
 
 }
 
 footer {
   height: 300px;
-  background-color: red;
+  padding-top: 30px;
+  background-color: #e74c3c;
   /* sur le parent */
   display: flex;
 }
@@ -109,7 +110,11 @@ footer ul {
   flex: 0 1 25%
 }
 
-#places {
+footer li {
+  list-style-type: none;
+}
+
+/* #places {
   background-color: teal;
 }
 
@@ -123,4 +128,4 @@ footer ul {
 
 #continent {
   background-color: teal;
-}
+} */
