@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background-color: blanchedalmond;
+  padding: 20px;
+}
+
+.card {
+  width: 200px;
+  color: blueviolet;
+  background-color: white;
+  padding: 10px;
+}
+
+.card p {
+  color: green;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#parent {
+  width: 90%;
+  margin: auto;
+  background-color: green;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.enfant {
+  /* flex :  grandir 0/1        REDUIRE 01        taille default*/
+  flex: 0 0 200px;
+  background-color: brown;
+  margin: 5px;
+  color: white;
+  height: 50px;
+  /* pour les enfants => petit enfant */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.petit-enfant {
+  background: yellow;
+  color: black;
+}
+
+.card i {
+  font-size: 40px;
+}
