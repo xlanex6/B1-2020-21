@@ -1,18 +1,4 @@
-## RECAP
-
-## QCM
-
 ## CORRECTION
 
-PROJET:
-livrable
+[Live Code de la correction](https://youtu.be/DfJfUFeVx-0)
 
-Criteres
-
-SIMILAIRE ?
-CODE  
- structure
-balise
-CSS
-flexbox
-float
